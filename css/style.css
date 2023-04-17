@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.container{
+  margin: 0 auto;
+
+}
+
+
+
+.add-task{
+  display: flex;
+  justify-content: center;
+}
+
+.task-list li{
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey ;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.task-list li:hover{
+  background-color: white;
+}
+
+.task-list li.done span{
+  text-decoration: line-through;
+}
